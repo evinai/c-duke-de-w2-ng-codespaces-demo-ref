@@ -8,7 +8,7 @@ test:
 	#python -m pytest --nbval notebook.ipynb
 
 lint:
-	pylint --disable=R,C,E1120,E0401 hello.py
+	pylint --disable=R,C, hello.py
 	
 format:
 	black *.py
